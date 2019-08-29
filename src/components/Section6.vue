@@ -2,7 +2,6 @@
   <v-container fill-height>
     <v-container>
       <v-row >
-
         <v-col  cols="5">
           <v-list>
             <v-list-item dense>
@@ -10,7 +9,6 @@
                 <h3 class="display-1 font-weight-black">Frequently asked questions</h3>
               </v-list-item-content>
             </v-list-item>
-
             <v-list-item dense>
               <v-list-item-content>
                 <p class="font-weight-light">Have a presale question about our products and features? Or looking for a refund? We would love to hear what your concern is.</p>
@@ -24,7 +22,6 @@
                 <p>Simple and Smart HTML code</p>
               </v-list-item-content>
             </v-list-item>
-
             <v-list-item dense>
               <v-list-item-icon>
                 <v-icon>mdi-check</v-icon>
@@ -33,7 +30,6 @@
                 <p>Works reintegrated in any part of the layout</p>
               </v-list-item-content>
             </v-list-item>
-
             <v-list-item dense>
               <v-list-item-icon>
                 <v-icon>mdi-check</v-icon>
@@ -42,10 +38,8 @@
                 <p>Reuse these elements fro one desing to another</p>
               </v-list-item-content>
             </v-list-item>
-
           </v-list>
         </v-col>
-
         <v-col  cols="7">
           <v-expansion-panels accordion mandatory>
             <v-expansion-panel >
@@ -86,7 +80,6 @@
             </v-expansion-panel>
         </v-expansion-panels>
         </v-col>
-
       </v-row>
     </v-container>
   </v-container>

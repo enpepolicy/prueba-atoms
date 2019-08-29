@@ -1,7 +1,6 @@
 <template lang="html">
   <v-container fluid fill-height>
     <v-container >
-
       <v-row justify="center">
         <v-col  cols="12">
           <h2 class="text-center">Easy to use API</h2>
@@ -17,10 +16,8 @@
           <p class="text-center">Guide to setup and configuration. You can present below a guide and a description of how your system configurationworks and add some animated screens.</p>
         </v-col>
       </v-row>
-
       <v-row justify="center">
         <v-col cols="12">
-
           <v-tabs
             v-model="tab"
             right
@@ -38,9 +35,7 @@
               Security Levels API
             </v-tab>
           </v-tabs>
-
           <hr>
-
           <v-tabs-items v-model="tab">
             <v-tab-item>
               <code>
@@ -93,7 +88,6 @@
               </code>
             </v-tab-item>
           </v-tabs-items>
-
           <div class="text-end botones">
             <v-btn
             id="login"
@@ -118,10 +112,8 @@
               <span>RUN EXAMPLE</span>
             </v-btn>
           </div>
-
         </v-col>
       </v-row>
-
     </v-container>
   </v-container>
 </template>

@@ -11,7 +11,6 @@
           <hr>
         </v-col>
       </v-row>
-
       <v-row
       class="mt-8"
         v-for="item in justify"

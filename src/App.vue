@@ -1,18 +1,15 @@
 <template>
   <v-app>
     <v-container fluid>
-
       <Section1 class="fullH"/>
       <Section2 class="fullH"/>
       <Section3 class="fullH"/>
       <Section4 class="fullH"/>
       <Section5 class="fullH"/>
       <Section6 class="fullH"/>
-
+      <Section7 class="fullH"/>
+      <Footer />
     </v-container>
-    <Section7 class="fullH"/>
-    <Footer />
-
   </v-app>
 </template>
 
@@ -73,7 +70,7 @@ p{
   padding: 0
 }
 .fullH{
-  height: 100vh
+  min-height: 100vh
 }
 .v-tab{
   margin-bottom: 1.5em

@@ -16,10 +16,8 @@
           <p class="text-center">We believe created the most efficient Saas landing page for your users. Landing page with features that will convince you to use it for your SaaS business.</p>
         </v-col>
       </v-row>
-
       <v-row justify="center">
         <v-col cols="4">
-
           <v-tabs
             v-model="tab"
             centered
@@ -35,13 +33,10 @@
               Yearly
             </v-tab>
           </v-tabs>
-
         </v-col>
       </v-row>
-
       <v-row justify="center" align="center">
         <v-col cols="3">
-
           <v-tabs-items v-model="tab">
             <v-tab-item>
               <v-row justify="center">
@@ -55,10 +50,7 @@
               <v-row justify="center">
                 <p class="price">$<span class="big-number">0</span> /month</p>
               </v-row>
-
-
               <v-list>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -67,7 +59,6 @@
                     <p><strong>1</strong> User Account</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -76,7 +67,6 @@
                     <p><strong>10</strong> Team Members</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -85,7 +75,6 @@
                     <p><strong>Unlimited</strong> Emails Accounts</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -94,7 +83,6 @@
                     <p>Set And Manage Permissions</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                   </v-list-item-icon>
@@ -102,7 +90,6 @@
                     <p class="tachar">API & extension support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                   </v-list-item-icon>
@@ -110,18 +97,14 @@
                     <p class="tachar">Developers Support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                   </v-list-item-icon>
                   <v-list-item-content>
                     <p class="tachar">A/B Testig</p>
                   </v-list-item-content>
-
                 </v-list-item>
-
               </v-list>
-
               <div class="text-center">
                 <v-btn
                 id="login"
@@ -136,13 +119,10 @@
                   <span>Sign up</span>
                 </v-btn>
               </div>
-
             </v-tab-item>
           </v-tabs-items>
         </v-col>
-
         <v-col cols="3">
-
           <v-tabs-items v-model="tab">
             <v-tab-item>
               <v-row justify="center">
@@ -156,10 +136,7 @@
               <v-row justify="center">
                 <p class="price">$<span class="big-number">29</span> /month</p>
               </v-row>
-
-
               <v-list>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -168,7 +145,6 @@
                     <p><strong>10</strong> User Accounthola</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -177,7 +153,6 @@
                     <p><strong>100</strong> Team Members</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -186,7 +161,6 @@
                     <p><strong>Unlimited</strong> Emails Accounts</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -195,7 +169,6 @@
                     <p>Set And Manage Permissions</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -204,7 +177,6 @@
                     <p>API & extension support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                   </v-list-item-icon>
@@ -212,18 +184,14 @@
                     <p class="tachar">Developers Support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                   </v-list-item-icon>
                   <v-list-item-content>
                     <p class="tachar">A/B Testig</p>
                   </v-list-item-content>
-
                 </v-list-item>
-
               </v-list>
-
               <div class="text-center">
                 <v-btn
                 id="login"
@@ -238,22 +206,15 @@
                   <span>Sign up</span>
                 </v-btn>
               </div>
-
             </v-tab-item>
           </v-tabs-items>
         </v-col>
-
         <v-col cols="3">
-
-
           <v-tabs-items v-model="tab">
             <v-tab-item>
-
               <v-card
               color="#9966cc"
               elevation="10">
-
-
               <v-row justify="center">
                 <h3 class="oferta white--text pro">PRO</h3>
               </v-row>
@@ -265,10 +226,7 @@
               <v-row justify="center">
                 <p class="white--text">$<span class="big-number">49</span> /month</p>
               </v-row>
-
-
               <v-list color="#9966cc">
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -277,7 +235,6 @@
                     <p><strong>50</strong> User Accounthola</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -286,7 +243,6 @@
                     <p><strong>500</strong> Team Members</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -295,7 +251,6 @@
                     <p><strong>Unlimited</strong> Emails Accounts</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -304,7 +259,6 @@
                     <p>Set And Manage Permissions</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -313,7 +267,6 @@
                     <p>API & extension support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -322,18 +275,14 @@
                     <p>Developers Support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense dark>
                   <v-list-item-icon>
                   </v-list-item-icon>
                   <v-list-item-content>
                     <p class="tachar">A/B Testig</p>
                   </v-list-item-content>
-
                 </v-list-item>
-
               </v-list>
-
               <div class="text-center">
                 <v-btn
                 id="login"
@@ -347,15 +296,11 @@
                   <span>Sign up</span>
                 </v-btn>
               </div>
-
               </v-card>
             </v-tab-item>
-
           </v-tabs-items>
         </v-col>
-
         <v-col cols="3">
-
           <v-tabs-items v-model="tab">
             <v-tab-item>
               <v-row justify="center">
@@ -369,10 +314,7 @@
               <v-row justify="center">
                 <p class="price">$<span class="big-number">99</span> /month</p>
               </v-row>
-
-
               <v-list>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -381,7 +323,6 @@
                     <p><strong>Unlimited</strong> User Accounthola</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -390,7 +331,6 @@
                     <p><strong>Unlimited</strong> Team Members</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -399,7 +339,6 @@
                     <p><strong>Unlimited</strong> Emails Accounts</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -408,7 +347,6 @@
                     <p>Set And Manage Permissions</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -417,7 +355,6 @@
                     <p>API & extension support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                     <v-icon>mdi-check</v-icon>
@@ -426,18 +363,14 @@
                     <p>Developers Support</p>
                   </v-list-item-content>
                 </v-list-item>
-
                 <v-list-item dense>
                   <v-list-item-icon>
                   </v-list-item-icon>
                   <v-list-item-content>
                     <p>A/B Testig</p>
                   </v-list-item-content>
-
                 </v-list-item>
-
               </v-list>
-
               <div class="text-center">
                 <v-btn
                 id="login"
@@ -452,14 +385,11 @@
                   <span>Sign up</span>
                 </v-btn>
               </div>
-
             </v-tab-item>
           </v-tabs-items>
         </v-col>
       </v-row>
-
-
-  </v-container>
+    </v-container>
   </v-container>
 </template>
 

@@ -1,7 +1,6 @@
 <template lang="html">
   <v-container fill-height>
     <v-container>
-
       <v-row justify="center"  >
         <v-col  cols="12">
           <h2 class="text-center">Features designed for you</h2>
@@ -133,7 +132,6 @@
           </v-col>
         </v-col>
       </v-row>
-
     </v-container>
   </v-container>
 </template>

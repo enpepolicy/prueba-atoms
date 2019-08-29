@@ -2,12 +2,10 @@
   <v-container fluid>
     <v-container>
       <v-row justify="space-between">
-
         <v-col cols="4">
           <h3 class="title font-weight-black">LATER</h3>
           <p class="font-weight-light mb-0">Copyright © 2018 LATERAL.</p>
           <p class="font-weight-light mb-12">All Rights Reserved. Proudly made in EU.</p>
-
           <v-row justify="start" >
               <a href="#">
                 <v-img
@@ -29,7 +27,6 @@
               </a>
           </v-row>
         </v-col >
-
         <v-col cols="2">
           <h3 class="title font-weight-black">Company</h3>
           <v-row><v-btn
@@ -130,7 +127,6 @@
             Press
           </v-btn></v-row>
         </v-col>
-
       </v-row>
     </v-container>
   </v-container>
