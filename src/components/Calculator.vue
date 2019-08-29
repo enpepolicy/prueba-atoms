@@ -87,7 +87,7 @@
       </v-col>
       <v-col cols="6">
         <p class="datos">
-          $ {{((deseado/meses)+(deseado*tasaAnual/1200)).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
+          $ {{((deseado/meses)+(deseado*tasaAnual/1200)).toLocaleString('en', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
         </p>
       </v-col>
     </v-row>
@@ -97,7 +97,7 @@
       </v-col>
       <v-col cols="6">
         <p class="datos">
-          $ {{(apertura).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
+          $ {{(apertura).toLocaleString('en', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
         </p>
       </v-col>
     </v-row>
@@ -107,7 +107,7 @@
       </v-col>
       <v-col cols="6">
         <p class="datos">
-          $ {{(deseado-apertura).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
+          $ {{(deseado-apertura).toLocaleString('en', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
         </p>
       </v-col>
     </v-row>
@@ -117,7 +117,7 @@
       </v-col>
       <v-col cols="6">
         <p class="datos">
-          $ {{(((deseado/meses)+(deseado*tasaAnual/1200))*(meses)).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
+          $ {{(((deseado/meses)+(deseado*tasaAnual/1200))*(meses)).toLocaleString('en', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
         </p>
       </v-col>
     </v-row>
