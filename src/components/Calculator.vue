@@ -117,7 +117,7 @@
       </v-col>
       <v-col cols="6">
         <p class="datos">
-          $ {{(((deseado/meses)+(deseado*tasaAnual/1200))*(meses)).toLocaleString('en', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
+          $ {{((((deseado/meses)+(deseado*tasaAnual/1200))*(meses))+apertura).toLocaleString('en', {minimumFractionDigits: 2, maximumFractionDigits: 2})}}
         </p>
       </v-col>
     </v-row>

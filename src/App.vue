@@ -76,6 +76,7 @@ p{
   margin-bottom: 1.5em
 }
 #app{
+  background-color: #f0e8f7;
   background-image: url('~@/assets/mascara-blanca.svg'), url('~@/assets/bg.jpg');
   z-index: 1, 2, 3;
   background-repeat: no-repeat;
